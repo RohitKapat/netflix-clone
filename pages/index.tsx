@@ -56,7 +56,7 @@ export default function Home({ netflixOriginals,
 }
 
 
-export const getServerSideProps = async (params:type) => {
+export const getServerSideProps = async () => {
   
   const [
     netflixOriginals,
